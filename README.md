@@ -24,23 +24,22 @@ To-do list:
 ## Getting Started
    
 1. Clone the project
+```
 $ git clone https://github.com/munjanichintan123/P1_Hive.git
-
-> Be sure to include BOTH Windows and Unix command  
-> Be sure to mention if the commands only work on a specific platform (eg. AWS, GCP)
-
-- All the `code` required to get started
-- Images of what it should look like
+```
 
 ## Usage
 
-> Here, you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
+> A Hadoop ecosystem
+> * Apache Hadoop should be installed with all the components.
 
 ## Contributors
 
-> Here list the people who have contributed to this project. (ignore this section, if its a solo project)
-
-## License
-
-This project uses the following license: [<license_name>](<link>).
-
+1. After logging into VM, clone the project onto local machine and unzip all the csv files.
+2. Then, copy csv files from local to hdfs.
+```
+$ hdfs dfs -put ./filename <hdfs-path>
+```
+3. You can use hive using either hive shell or hive view. (Type hive to start hive shell)
+4. Upload the data from all the csv files to the respective tables from Hive View->Upload Table
+5. Then, start executing queries.
