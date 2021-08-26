@@ -30,8 +30,8 @@ $ git clone https://github.com/munjanichintan123/P1_Hive.git
 
 ## Usage
 
-> A Hadoop ecosystem
-> * Apache Hadoop should be installed with all the components.
+A Hadoop ecosystem
+  * Apache Hadoop should be installed with all the components.
 
 ## Contributors
 
