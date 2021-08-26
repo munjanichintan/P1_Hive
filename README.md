@@ -41,5 +41,8 @@ A Hadoop ecosystem
 $ hdfs dfs -put ./filename <hdfs-path>
 ```
 3. You can use hive using either hive shell or hive view. (Type hive to start hive shell)
-4. Upload the data from all the csv files to the respective tables from Hive View->Upload Table
+4. Upload the data from all the csv files to the respective tables using below command
+```
+load data inpath <hdfs-file-path> into table <database-name>.<table-name>
+```
 5. Then, start executing queries.
